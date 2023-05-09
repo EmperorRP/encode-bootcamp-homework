@@ -79,4 +79,42 @@ The following functions are available in the contract:
 - Input: None
 - Output: winnerName_ (bytes32)
 
+## More Transactions:
+
+From address: 0x26593df687d4003b27dA1E40D1023eaC8cdfa9Aa
+Transaction Hash: 0xa6ae4b64944b75bba994eeee5aeefbc0f53c1b0d56379eed8335918c369e0d68
+Function called: giveRightToVote(address voter)
+[Link](https://sepolia.etherscan.io/tx/0xa6ae4b64944b75bba994eeee5aeefbc0f53c1b0d56379eed8335918c369e0d68)
+Reason for revert: 'Only chairperson can give right to vote.'
+
+From address: 0x0d1f2b79ac251295c72b1fd9d141ca41d4f78d49
+Transaction Hash: 0x688801bcc69cb60e9f62c436377cfedd0fe83f8daf44cc37da6af23131d76517
+Function called: vote(uint proposal)
+[Link](https://sepolia.etherscan.io/tx/0xa6ae4b64944b75bba994eeee5aeefbc0f53c1b0d56379eed8335918c369e0d68)
+Transaction Successful
+
+From address: 0x0d1f2b79ac251295c72b1fd9d141ca41d4f78d49
+Transaction Hash: 0x01e7e9495fcdd970bde30b84c1ec5f2c4d3abd77d19b34f9b5023358b77f1ece
+Function called: giveRightToVote(address voter)
+[Link](https://sepolia.etherscan.io/tx/0x01e7e9495fcdd970bde30b84c1ec5f2c4d3abd77d19b34f9b5023358b77f1ece)
+Reason for revert: 'The voter already voted.'
+
+From address: 0xaD57E1d8C0C0272954DC37940c8e1b4d5c4aB9bf
+Transaction Hash: 0x23719fb865b665b438f709d42d8a2a35b4eb29f53721dadeeae40fe9ed2e3d6d
+Function called: vote(uint proposal)
+[Link](https://sepolia.etherscan.io/tx/0x23719fb865b665b438f709d42d8a2a35b4eb29f53721dadeeae40fe9ed2e3d6d)
+Transaction Successful
+
+From address: 0xad57e1d8c0c0272954dc37940c8e1b4d5c4ab9bf
+Transaction Hash: 0x57499e3436901c79042941773fee087448ef7518e1ec6f3124a38475f1c72ff1
+Function called: vote(uint proposal)
+[Link](https://sepolia.etherscan.io/tx/0x57499e3436901c79042941773fee087448ef7518e1ec6f3124a38475f1c72ff1)
+Reason for revert: 'Already voted.'
+
+From address:0x26593df687d4003b27da1e40d1023eac8cdfa9aa
+Transaction Hash: 0x6d7f95c494149d3e31628dd20b0b2d6b71050a636d858854586e8abfa44e8854
+Function called: delegate(address to)
+[Link](https://sepolia.etherscan.io/tx/0x6d7f95c494149d3e31628dd20b0b2d6b71050a636d858854586e8abfa44e8854)
+Reason for revert: 'You have no right to vote'
+
 
