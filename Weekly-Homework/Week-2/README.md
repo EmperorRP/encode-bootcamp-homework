@@ -11,7 +11,7 @@
     + [vote(uint proposal)](#voteuint-proposal)
     + [winningProposal()](#winningproposal)
     + [winnerName()](#winnername)
-
+- [More Transactions](more-transactions)
 
 ## Solidity Voting with Ballot.sol
 
